@@ -48,3 +48,41 @@ if (like == 'y')
 
 
 }
+
+
+
+
+
+
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "Hello World!\n";
+
+  cout << "Lancement du programme...\n" ; 
+
+  int n;
+  double nombre, somme= 0;
+
+  cout << "Combien de nombres veux tu entrer ? ";
+  cin >> n;
+  
+  cout << "D'accord tu veux entrer " << n << " nombres\n";
+
+  for (int compteur = 0; compteur < n; compteur += 1 ) 
+  {
+    cout << "Quel nombre veux tu entrer " ;
+    cin >> nombre ;
+
+    somme += nombre;
+
+  }
+
+  double moyenne = somme /n; 
+  cout << "La somme des nombres que tu viens d'entrer est de " << somme << " !\nLa moyenne quand à elle est de " << moyenne << " :)\n\n\n fermeture du programme...";
+
+
+}
