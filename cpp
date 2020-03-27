@@ -68,6 +68,8 @@ int main() {
   double nombre, somme= 0;
   // nice !!
 
+  // est ce que ca marche aussi?
+
 
   cout << "Combien de nombres veux tu entrer ? ";
   cin >> n;
