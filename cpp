@@ -21,7 +21,7 @@ if (color == "blue")
   }
 
 if (like == 'y')
-  { 
+  {
     likeButterflies = true;
 
   }
@@ -33,7 +33,7 @@ if (like == 'y')
   }
 
 
-  else if (isBlue) 
+  else if (isBlue)
     {
       cout << "you chose the color of the sunny sky, i knew you'd do that! :)" << endl;
 
@@ -62,17 +62,19 @@ using namespace std;
 int main() {
   cout << "Hello World!\n";
 
-  cout << "Lancement du programme...\n" ; 
+  cout << "Lancement du programme...\n" ;
 
   int n;
   double nombre, somme= 0;
+  // nice !!
+
 
   cout << "Combien de nombres veux tu entrer ? ";
   cin >> n;
-  
+
   cout << "D'accord tu veux entrer " << n << " nombres\n";
 
-  for (int compteur = 0; compteur < n; compteur += 1 ) 
+  for (int compteur = 0; compteur < n; compteur += 1 )
   {
     cout << "Quel nombre veux tu entrer " ;
     cin >> nombre ;
@@ -81,7 +83,7 @@ int main() {
 
   }
 
-  double moyenne = somme /n; 
+  double moyenne = somme /n;
   cout << "La somme des nombres que tu viens d'entrer est de " << somme << " !\nLa moyenne quand à elle est de " << moyenne << " :)\n\n\n fermeture du programme...";
 
 
